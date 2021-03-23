@@ -13,6 +13,7 @@ apk add postgresql
 apk add python3 py3-pip
 pip install awscli
 apk del py3-pip
+apk add py3-six py3-urllib3 py3-colorama
 
 # install go-cron
 apk add curl
